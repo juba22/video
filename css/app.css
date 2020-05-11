@@ -1,0 +1,216 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+/** Start List Left **/
+.list{
+    width: 16%;
+    height: 100%;
+    padding: 5px;
+    float: left;
+    background:#000;
+    position: fixed;
+    overflow: scroll;
+}
+.title{
+    font-size: 30px;
+    margin: 10px 15px 20px 15px;
+}
+.title b{
+    color: #ff0000;
+    font-family: cursive;
+    font-size: 40px;
+}
+.title a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+    padding: 1px 5px;
+    margin-left: 10px;
+}
+ul li{
+    margin-top: 15px;
+}
+.menu .bold{
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.fa{
+    margin-right: 10px;
+}
+.menu a{
+    color: gray;
+    text-decoration: none;
+}
+.menu a:hover .fa{
+    color: #208001;
+    transition: .5s;
+}
+/** End List Left **/
+
+/** Start Container **/
+.container{
+    float: right;
+    width: 82%;
+}
+
+/** Start Head **/
+.in, .button, .img{
+    display: inline-block;
+}
+.in{
+    margin: 20px 40px;
+    background: lightgray;
+    color: gray;
+    padding: 5px 10px;
+    width: 500px;
+    border-radius: 15px;
+}
+.in input{
+    border: 0px;
+    background: lightgray;
+    width: 470px;
+    padding: 5px;
+    color: #208001;
+    font-weight: bold;
+    outline: none
+}
+.img img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.right{
+    float: right;
+    margin: 20px 40px;
+}
+.right .button{
+    background: #000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    float: left;
+    margin: 0 15px;
+}
+.right .button{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Slabo 27px', serif;
+    font-size: 15px;
+    transition:.5s;
+}
+.right .button:hover{
+    background: #252323;
+    transition:.5s;
+    color: #ff0000;
+}
+/** End Head **/
+
+/** Start Trending **/
+.user{
+    margin: 20px;
+}
+.user h2{
+    margin: 25px 0 10px 20px;
+    color: #ff0303
+}
+.user .pers{
+    text-align: center;
+    overflow: hidden;
+}
+.user .person{
+    float: left;
+    margin: 10px 19px;
+}
+.clrearfix{
+    clear: both;
+}
+.user img{
+    width: 45px;
+    height: 45px;
+    border: 3px solid gray;
+    border-radius: 50px;
+    transition: 1s;
+    margin-bottom: 5px;
+}
+.person b{
+    text-align: center;
+}
+.person a{
+    color: black;
+    text-decoration: none;
+}
+.person:hover img{
+    border:3px solid #ff0000;
+    transition: 1s;
+    transform: rotate(360deg);
+}
+/** End Trending **/
+
+/**Start Videos contact**/
+.videos{
+    margin: 0px 20px;
+    float: right;
+}
+.videos h2, .arrow{
+    display: inline-block;
+}
+.videos h2{
+    margin: 20px 0 10px 20px;
+}
+.videos .arrow{
+    float: right;
+    margin:30px 15px 10px 0px;
+}
+.videos .fa{
+    color: lightgray;
+    transition: .5s;
+}
+.videos .fa:hover{
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+}
+.box{
+    width: 325px;
+    height:310px;
+    display: inline-block;
+    margin: 5px 0 10px 5px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    transition: .5s;
+}
+.box:hover{
+    background: #ea0000;
+    border-radius: 5px;
+    transition: .5s;
+}
+.box iframe{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+.box .contact{
+    text-align: left;
+    margin-top: 5px;
+}
+.box .pho,.b{
+    display: inline-block;
+}
+.box img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.box .chan{
+    margin-top: 10px; 
+    font-size: 13px;
+}
+/**Start Videos contact**/
+
+/** End Container **/
